@@ -11,8 +11,8 @@ npm install template-mailer
 
 ```js
 var send = require('template-mailer')({
-	email_dir: path.join(__dirname, '/emails'),
-	mandrill_key: "0NOVG1HyZGjrMDPnkS279w"
+	email_dir: '/emails',
+	mandrill_key: "xxxxxxxxxx"
 });
 
 send({
@@ -50,8 +50,8 @@ or just a regular file. Data can be passed to the template using the data proper
 * *subject* (required, type=string): The subject of the message
 * *data*: (optional, type=object): The data to pass to the template
 
-Because we use Nunjucks as our template library, you can use nunjucks includes and blocks in 
-your email files.
+Because we use Nunjucks as our template library, you can use includes and blocks in your email files to
+create more complex email contents.
 
 ### License
 MIT
