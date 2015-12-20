@@ -1,0 +1,16 @@
+{
+  "name": "template-mailer",
+  "version": "0.0.1",
+  "description": "A mailer library with nunjucks templating support",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kennedy Idialu <kennedyidialu@gmail.com> (ncodes.wordpress.com)",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "^3.1.1",
+    "node-mandrill": "^1.0.1",
+    "nunjucks": "^2.2.0"
+  }
+}
